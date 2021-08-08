@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack_01", "Stack_01\Stack_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Char_01", "Char_01\Char_01.csproj", "{40BF1C24-9F70-4617-9C21-E149684B6277}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Longest_Common_Prefix", "14_Longest_Common_Prefix\14_Longest_Common_Prefix.csproj", "{99A63241-103F-4A2E-A058-6DDCEF7FEBB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{40BF1C24-9F70-4617-9C21-E149684B6277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40BF1C24-9F70-4617-9C21-E149684B6277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40BF1C24-9F70-4617-9C21-E149684B6277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A63241-103F-4A2E-A058-6DDCEF7FEBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A63241-103F-4A2E-A058-6DDCEF7FEBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A63241-103F-4A2E-A058-6DDCEF7FEBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A63241-103F-4A2E-A058-6DDCEF7FEBB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
