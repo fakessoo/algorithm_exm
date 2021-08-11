@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Char_01", "Char_01\Char_01.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Longest_Common_Prefix", "14_Longest_Common_Prefix\14_Longest_Common_Prefix.csproj", "{99A63241-103F-4A2E-A058-6DDCEF7FEBB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_Remove_Duplicates_from_Sorted_Array", "26_Remove_Duplicates_from_Sorted_Array\26_Remove_Duplicates_from_Sorted_Array.csproj", "{CA795A6B-E1D0-4731-A2C0-156453D82A21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_Remove_Duplicates_from_Sorted_Array", "26_Remove_Duplicates_from_Sorted_Array\26_Remove_Duplicates_from_Sorted_Array.csproj", "{CA795A6B-E1D0-4731-A2C0-156453D82A21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Two_Sum", "1_Two_Sum\1_Two_Sum.csproj", "{D2A01B4A-F35E-4B69-AA80-118C8ED8307C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Two_Sum", "1_Two_Sum\1_Two_Sum.csproj", "{D2A01B4A-F35E-4B69-AA80-118C8ED8307C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53_Maximum_Subarray", "53_Maximum_Subarray\53_Maximum_Subarray.csproj", "{2396A243-2142-4724-960B-431AE3E13114}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D2A01B4A-F35E-4B69-AA80-118C8ED8307C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2A01B4A-F35E-4B69-AA80-118C8ED8307C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2A01B4A-F35E-4B69-AA80-118C8ED8307C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2396A243-2142-4724-960B-431AE3E13114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2396A243-2142-4724-960B-431AE3E13114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2396A243-2142-4724-960B-431AE3E13114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2396A243-2142-4724-960B-431AE3E13114}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
