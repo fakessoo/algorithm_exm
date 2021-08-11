@@ -61,7 +61,7 @@ namespace _1_Two_Sum
                 int complement = target - nums[i];
                 if (dict.ContainsKey(complement))
                 {
-                    return new int[] { dict.GetValueOrDefault(nums[i]), i };
+                    return new int[] { dict.GetValueOrDefault(complement), i };
                 }
                 dict.Add(nums[i], i);
             }
