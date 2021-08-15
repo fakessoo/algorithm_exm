@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Char_01", "Char_01\Char_01.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Longest_Common_Prefix", "14_Longest_Common_Prefix\14_Longest_Common_Prefix.csproj", "{99A63241-103F-4A2E-A058-6DDCEF7FEBB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "937_Reorder_Data_in_Log_Files", "937_Reorder_Data_in_Log_Files\937_Reorder_Data_in_Log_Files.csproj", "{74DCA3CB-B89C-44BF-A1A2-7FBFFD000C75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{99A63241-103F-4A2E-A058-6DDCEF7FEBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99A63241-103F-4A2E-A058-6DDCEF7FEBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99A63241-103F-4A2E-A058-6DDCEF7FEBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74DCA3CB-B89C-44BF-A1A2-7FBFFD000C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DCA3CB-B89C-44BF-A1A2-7FBFFD000C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DCA3CB-B89C-44BF-A1A2-7FBFFD000C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DCA3CB-B89C-44BF-A1A2-7FBFFD000C75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
