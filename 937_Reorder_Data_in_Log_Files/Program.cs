@@ -1,94 +1,80 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 
 namespace _937_Reorder_Data_in_Log_Files
 {
+    public class LogComparer : IComparer
+    {
+        public int Compare(object x, object y)
+        {
+            string log1 = (string)x;
+            string log2 = (string)y;
+
+            // split each log into two parts: <identifier, content>
+            string[] split1 = log1.Split(" ", 2);
+            string[] split2 = log2.Split(" ", 2);
+
+            bool isDigit1 = Char.IsDigit(split1[1][0]);
+            bool isDigit2 = Char.IsDigit(split2[1][0]);
+
+            // case 1). both logs are letter-logs
+            if (!isDigit1 && !isDigit2)
+            {
+                // first compare the content
+                int cmp = split1[1].CompareTo(split2[1]);
+                if (cmp != 0)
+                    return cmp;
+
+                // logs of same content, compare the identifiers
+                return split1[0].CompareTo(split2[0]);
+            }
+
+            // case 2). one of logs is digit-log
+            if (!isDigit1 && isDigit2)
+            {
+                // the letter-log comes before digit-logs
+                return -1;
+            }
+            else if (isDigit1 && !isDigit2)
+            {
+                return 1;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+    }
+
     class Program
     {
-        public static void Main()
+        static void Main(string[] args)
         {
-#if false
-            string[] logs = new string[5];
-            logs[0] = "dig1 8 1 5 1";
-            logs[1] = "let1 art can";
-            logs[2] = "dig2 3 6";
-            logs[3] = "let2 own kit dig";
-            logs[4] = "let3 art zero";
+            // string[] logs = new string[] { "dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero" };
+            string[] logs = new string[] { "a1 9 2 3 1", "g1 act car", "zo4 4 7", "ab1 off key dog", "a8 act zoo" };
             ReorderLogFiles(logs);
-#else
-            
-            string[] logs = new string[] { "j je", "b fjt", "7 zbr", "m le", "o 33" };
-            ReorderLogFiles(logs);
-#endif
         }
 
         public static string[] ReorderLogFiles(string[] logs)
         {
-            // 1. distinguish letter-logs and digits-logs
-            // 2. sorting letter-logs 
-            // 3. sorting digits-logs
-            // 4. compose both logs in a string array
-            // 5. return string array
 
-            string[] logs_arr = new string[logs.Length];
+#if true
+            // Comparator
 
-            List<string> letters_list = new List<string>();
-            List<string> digits_list = new List<string>();
+            // 1. The letter-logs should be prioritized above all digit-logs.
+            // 
+            // 2. Among the letter-logs, we should futher sort them firstly based on their contents,
+            //      and then on their identifiers if the contents are identical.
+            //
+            // 3. Among the digit-logs, they should remain in the same order as they are in the collection.
 
-            // distinguish letter-logs and digits-logs
-            for (int i = 0; i < logs.Length; i++)
-            {
-                string input_arr_str = logs[i].Split(' ', 2)[1];
-                if (!int.TryParse(input_arr_str[0].ToString(), out int input_num))
-                {
-                    // this is letter-log
-                    letters_list.Add(logs[i]);
-                }
-                else
-                {
-                    // this is digit-log
-                    digits_list.Add(logs[i]);
-                }
-            }
+            LogComparer myComp = new LogComparer();
+            Array.Sort(logs, myComp);
+            return logs;
+#elif true
 
-            string[] letters_arr = letters_list.ToArray();
-            string[] digits_arr = digits_list.ToArray();
 
-            for (int i = 0; i < letters_arr.Length; i++)
-            {
-                if (letters_arr.Length < 2)
-                {
-                    logs_arr[i] = letters_arr[i];
-                }
-                else
-                {
-                    string[] splt_letter = letters_arr[i].Split(' ', 2);
-                    for (int j = i + 1; j < letters_arr.Length; j++)
-                    {
-                        string[] splt_letter2 = letters_arr[j].Split(' ', 2);
-                        if (string.Compare(splt_letter[1], splt_letter2[1]) < 0)
-                        {
-                            logs_arr[i] = string.Join(' ', splt_letter);
-                            splt_letter = letters_arr[i].Split(' ', 2);
-                            logs_arr[i + 1] = string.Join(' ', splt_letter2);
-                        }
-                        else
-                        {
-                            logs_arr[i] = string.Join(' ', splt_letter2);
-                            splt_letter = letters_arr[j].Split(' ', 2);
-                            logs_arr[i + 1] = string.Join(' ', splt_letter);
-                        }
-                    }
-                }
-            }
-
-            
-            for (int i = 0; i < digits_arr.Length; i++)
-            {
-                logs_arr[letters_arr.Length + i] = digits_arr[i];
-            }
-
-            return logs_arr;
+#endif 
         }
     }
 }
