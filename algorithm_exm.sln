@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28_Implement_strStr()", "28
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58_Length_of_Last_Word", "58_Length_of_Last_Word\58_Length_of_Last_Word.csproj", "{4B2C8BD0-9479-4848-BB69-701A52B9A8B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_Search_Insert_Position", "35_Search_Insert_Position\35_Search_Insert_Position.csproj", "{F6A031BF-CF17-4815-AB0F-503ED0EE4CD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4B2C8BD0-9479-4848-BB69-701A52B9A8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B2C8BD0-9479-4848-BB69-701A52B9A8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B2C8BD0-9479-4848-BB69-701A52B9A8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A031BF-CF17-4815-AB0F-503ED0EE4CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A031BF-CF17-4815-AB0F-503ED0EE4CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A031BF-CF17-4815-AB0F-503ED0EE4CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A031BF-CF17-4815-AB0F-503ED0EE4CD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
