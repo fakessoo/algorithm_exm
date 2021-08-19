@@ -23,15 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "937_Reorder_Data_in_Log_Fil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_Remove_Element", "27_Remove_Element\27_Remove_Element.csproj", "{45BA1F22-4DEB-4B77-850B-73AA5275528B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1822_Sign_of_the_Product_of_an_Array", "1822_Sign_of_the_Product_of_an_Array\1822_Sign_of_the_Product_of_an_Array.csproj", "{CC24B456-0DFA-425B-9480-C6B43D13B81C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1822_Sign_of_the_Product_of_an_Array", "1822_Sign_of_the_Product_of_an_Array\1822_Sign_of_the_Product_of_an_Array.csproj", "{CC24B456-0DFA-425B-9480-C6B43D13B81C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28_Implement_strStr()", "28_Implement_strStr()\28_Implement_strStr().csproj", "{1B7AF674-2952-465F-924C-A0D5CD851D12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_Implement_strStr()", "28_Implement_strStr()\28_Implement_strStr().csproj", "{1B7AF674-2952-465F-924C-A0D5CD851D12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58_Length_of_Last_Word", "58_Length_of_Last_Word\58_Length_of_Last_Word.csproj", "{4B2C8BD0-9479-4848-BB69-701A52B9A8B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "58_Length_of_Last_Word", "58_Length_of_Last_Word\58_Length_of_Last_Word.csproj", "{4B2C8BD0-9479-4848-BB69-701A52B9A8B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_Search_Insert_Position", "35_Search_Insert_Position\35_Search_Insert_Position.csproj", "{F6A031BF-CF17-4815-AB0F-503ED0EE4CD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35_Search_Insert_Position", "35_Search_Insert_Position\35_Search_Insert_Position.csproj", "{F6A031BF-CF17-4815-AB0F-503ED0EE4CD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "66_Plus_One", "66_Plus_One\66_Plus_One.csproj", "{241C95C8-3BA6-465A-92A8-5BC43D575FBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "66_Plus_One", "66_Plus_One\66_Plus_One.csproj", "{241C95C8-3BA6-465A-92A8-5BC43D575FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "70_Climbing_Stairs", "70_Climbing_Stairs\70_Climbing_Stairs.csproj", "{CB0A3B75-ED69-4D04-A334-42E12F9A28BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83_Remove_Duplicates_from_Sorted_List", "83_Remove_Duplicates_from_Sorted_List\83_Remove_Duplicates_from_Sorted_List.csproj", "{E80BCD2D-9BBB-4833-816B-9A223E199237}"
 EndProject
@@ -101,6 +103,10 @@ Global
 		{241C95C8-3BA6-465A-92A8-5BC43D575FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{241C95C8-3BA6-465A-92A8-5BC43D575FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{241C95C8-3BA6-465A-92A8-5BC43D575FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB0A3B75-ED69-4D04-A334-42E12F9A28BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB0A3B75-ED69-4D04-A334-42E12F9A28BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB0A3B75-ED69-4D04-A334-42E12F9A28BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0A3B75-ED69-4D04-A334-42E12F9A28BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E80BCD2D-9BBB-4833-816B-9A223E199237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E80BCD2D-9BBB-4833-816B-9A223E199237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E80BCD2D-9BBB-4833-816B-9A223E199237}.Release|Any CPU.ActiveCfg = Release|Any CPU
