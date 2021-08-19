@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_Search_Insert_Position",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "66_Plus_One", "66_Plus_One\66_Plus_One.csproj", "{241C95C8-3BA6-465A-92A8-5BC43D575FBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83_Remove_Duplicates_from_Sorted_List", "83_Remove_Duplicates_from_Sorted_List\83_Remove_Duplicates_from_Sorted_List.csproj", "{E80BCD2D-9BBB-4833-816B-9A223E199237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{241C95C8-3BA6-465A-92A8-5BC43D575FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{241C95C8-3BA6-465A-92A8-5BC43D575FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{241C95C8-3BA6-465A-92A8-5BC43D575FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80BCD2D-9BBB-4833-816B-9A223E199237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80BCD2D-9BBB-4833-816B-9A223E199237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80BCD2D-9BBB-4833-816B-9A223E199237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80BCD2D-9BBB-4833-816B-9A223E199237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
