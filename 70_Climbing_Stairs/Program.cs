@@ -53,7 +53,8 @@ namespace _70_Climbing_Stairs
 
             // In this way we are pruning(가지치기) recursion tree with the help of memo array and reducing the size of recursion tree upto 'n'
 
-            return 0;
+            int[] memo = new int[n+1];
+            return ClimbStairs(0, n, memo);
         }
 
         public static int ClimbStairs(int i, int n, int[] memo)
@@ -74,7 +75,7 @@ namespace _70_Climbing_Stairs
             // Space complexity : O(n). The depth of recursion tree can go upto n
         }
 
-#elif false
+#elif true
 
         public static int ClimbStairs(int n)
         {
