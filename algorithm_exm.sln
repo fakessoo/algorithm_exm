@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "70_Climbing_Stairs", "70_Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "83_Remove_Duplicates_from_Sorted_List", "83_Remove_Duplicates_from_Sorted_List\83_Remove_Duplicates_from_Sorted_List.csproj", "{E80BCD2D-9BBB-4833-816B-9A223E199237}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "88_Merge_Sorted_Array", "88_Merge_Sorted_Array\88_Merge_Sorted_Array.csproj", "{8A65031D-32B1-4432-B3A3-742DC6CF4013}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "88_Merge_Sorted_Array", "88_Merge_Sorted_Array\88_Merge_Sorted_Array.csproj", "{8A65031D-32B1-4432-B3A3-742DC6CF4013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "387_First_Unique_Character_in_a_String", "387_First_Unique_Character_in_a_String\387_First_Unique_Character_in_a_String.csproj", "{45DD87EF-63B0-4179-93CE-E72BB7926240}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{8A65031D-32B1-4432-B3A3-742DC6CF4013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A65031D-32B1-4432-B3A3-742DC6CF4013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A65031D-32B1-4432-B3A3-742DC6CF4013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DD87EF-63B0-4179-93CE-E72BB7926240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DD87EF-63B0-4179-93CE-E72BB7926240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DD87EF-63B0-4179-93CE-E72BB7926240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DD87EF-63B0-4179-93CE-E72BB7926240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
