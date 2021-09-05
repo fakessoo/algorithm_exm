@@ -9,13 +9,18 @@ namespace _1_Two_Sum
         {
             int[] nums = new int[] { 3, 2, 4 };
             int target = 6;
-            TwoSum(nums, target);
+            int[] result = TwoSum(nums, target);
+
+            for (int i = 0; i < result.Length; i++)
+            {
+                Console.WriteLine(result[i]);
+            }
         }
 
         public static int[] TwoSum(int[] nums, int target)
         {
 
-#if false
+#if true
 
             // time complexity : O(n)
 
@@ -50,7 +55,7 @@ namespace _1_Two_Sum
 
             return null;
 
-#elif true
+#elif false
 
             // for문 2개 돌려서 가는건 쉬움
             // 최적화를 위해 1개로 갈 방법으로 구성해야 함 time complexity : O(1)
