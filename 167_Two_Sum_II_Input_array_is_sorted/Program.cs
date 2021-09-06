@@ -66,6 +66,10 @@ namespace _167_Two_Sum_II_Input_array_is_sorted
             }
             return null;
 
+            //  Time complexity : O(n). The input array is traversed  at most once. Thus the time complexity is O(n).
+            
+            //  Space complexity : O(1). We only use addtional space to store two indices and the sum, so the space complexity is O(1).  
+
 #elif false
             // 이 과정은 같은 값이 존재할 수 있으므로 non-decreasing order에서 적용되지 않음
             // 아직도 머리속에 안 들어와져 있음
