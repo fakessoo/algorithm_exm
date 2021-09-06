@@ -47,9 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "706_Design_HashMap", "706_D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "125_Valid_Palindrome", "125_Valid_Palindrome\125_Valid_Palindrome.csproj", "{15EAACB6-7706-4906-BC8E-DDA63026D524}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google_Unique_Email_Addresses", "Google_Unique_Email_Addresses\Google_Unique_Email_Addresses.csproj", "{960DCAAA-64DF-4507-AA39-060B58866113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Google_Unique_Email_Addresses", "Google_Unique_Email_Addresses\Google_Unique_Email_Addresses.csproj", "{960DCAAA-64DF-4507-AA39-060B58866113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "167_Two_Sum_II_Input_array_is_sorted", "167_Two_Sum_II_Input_array_is_sorted\167_Two_Sum_II_Input_array_is_sorted.csproj", "{9AFE4570-CAB2-4200-A99E-DB1CBC098F19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "167_Two_Sum_II_Input_array_is_sorted", "167_Two_Sum_II_Input_array_is_sorted\167_Two_Sum_II_Input_array_is_sorted.csproj", "{9AFE4570-CAB2-4200-A99E-DB1CBC098F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "283_Move_Zeroes", "283_Move_Zeroes\283_Move_Zeroes.csproj", "{8831F726-EB82-4DD6-B90C-351DF34E2263}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{9AFE4570-CAB2-4200-A99E-DB1CBC098F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AFE4570-CAB2-4200-A99E-DB1CBC098F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AFE4570-CAB2-4200-A99E-DB1CBC098F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8831F726-EB82-4DD6-B90C-351DF34E2263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8831F726-EB82-4DD6-B90C-351DF34E2263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8831F726-EB82-4DD6-B90C-351DF34E2263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8831F726-EB82-4DD6-B90C-351DF34E2263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
