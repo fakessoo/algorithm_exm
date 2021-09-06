@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_167_Two_Sum_II_Input_array_is_sorted</RootNamespace>
+  </PropertyGroup>
+
+</Project>
