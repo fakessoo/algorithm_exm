@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "122_Best_Time_to_Buy_and_Se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "706_Design_HashMap", "706_Design_HashMap\706_Design_HashMap.csproj", "{6BCDA325-495A-4840-AA8F-4110629539B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "125_Valid_Palindrome", "125_Valid_Palindrome\125_Valid_Palindrome.csproj", "{15EAACB6-7706-4906-BC8E-DDA63026D524}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "125_Valid_Palindrome", "125_Valid_Palindrome\125_Valid_Palindrome.csproj", "{15EAACB6-7706-4906-BC8E-DDA63026D524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google_Unique_Email_Addresses", "Google_Unique_Email_Addresses\Google_Unique_Email_Addresses.csproj", "{960DCAAA-64DF-4507-AA39-060B58866113}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{15EAACB6-7706-4906-BC8E-DDA63026D524}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15EAACB6-7706-4906-BC8E-DDA63026D524}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15EAACB6-7706-4906-BC8E-DDA63026D524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960DCAAA-64DF-4507-AA39-060B58866113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960DCAAA-64DF-4507-AA39-060B58866113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960DCAAA-64DF-4507-AA39-060B58866113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960DCAAA-64DF-4507-AA39-060B58866113}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
