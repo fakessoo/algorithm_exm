@@ -57,9 +57,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "724_Find_Pivot_Index", "724
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "344_Reverse_String", "344_Reverse_String\344_Reverse_String.csproj", "{240D3996-328A-4E65-BEEE-9A6BE20C83D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1480_Running_Sum_of_1d_Array", "1480_Running_Sum_of_1d_Array\1480_Running_Sum_of_1d_Array.csproj", "{1BC8B424-D2AD-44E4-918F-54F27ADC1B5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1480_Running_Sum_of_1d_Array", "1480_Running_Sum_of_1d_Array\1480_Running_Sum_of_1d_Array.csproj", "{1BC8B424-D2AD-44E4-918F-54F27ADC1B5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "359_Logger_Rate_Limiter", "359_Logger_Rate_Limiter\359_Logger_Rate_Limiter.csproj", "{34BCE531-00B1-41C8-84F0-72A9AA1FA5BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "359_Logger_Rate_Limiter", "359_Logger_Rate_Limiter\359_Logger_Rate_Limiter.csproj", "{34BCE531-00B1-41C8-84F0-72A9AA1FA5BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100_Same_Tree", "100_Same_Tree\100_Same_Tree.csproj", "{40592EF2-53DE-409D-9680-A6195BE2316D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{34BCE531-00B1-41C8-84F0-72A9AA1FA5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34BCE531-00B1-41C8-84F0-72A9AA1FA5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34BCE531-00B1-41C8-84F0-72A9AA1FA5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40592EF2-53DE-409D-9680-A6195BE2316D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40592EF2-53DE-409D-9680-A6195BE2316D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40592EF2-53DE-409D-9680-A6195BE2316D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40592EF2-53DE-409D-9680-A6195BE2316D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
